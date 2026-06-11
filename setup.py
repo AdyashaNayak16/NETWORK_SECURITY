@@ -23,3 +23,6 @@ setup(
     packages=find_packages(),
     install_requires=get_requirements()
 )
+import ssl
+print(ssl.OPENSSL_VERSION)
+
